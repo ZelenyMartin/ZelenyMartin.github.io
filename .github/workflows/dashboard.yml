@@ -22,16 +22,36 @@ jobs:
       uses: ethomson/issue-dashboard@v1
       with:
         config: |
-          title: 'Dashboard'
+          title: 'kodim.cz materiály'
           output:
             format: html
             filename: 'dashboard.html'
           sections:
-          - title: 'Pull Requests'
+          - title: 'lutydlitatova/uvod-do-progr-1'
             widgets:
             - type: 'table'
-              title: 'New Pull Requests (This Week)'
-              issue_query: 'repo:libgit2/libgit2 is:open is:issue created:>{{ date("-7 days") }} sort:created-asc'
+              title: 'Issues'
+              issue_query: 'repo:lutydlitatova/uvod-do-progr-1 is:open is:issue sort:created-asc'
+          - title: 'pesikj/progr2-python'
+            widgets:
+            - type: 'table'
+              title: 'Issues'
+              issue_query: 'repo:pesikj/progr2-python is:open is:issue sort:created-asc'
+          - title: 'podlomar/python-data'
+            widgets:
+            - type: 'table'
+              title: 'Issues'
+              issue_query: 'repo:podlomar/python-data is:open is:issue sort:created-asc'
+          - title: 'lutydlitatova/python-data-1'
+            widgets:
+            - type: 'table'
+              title: 'Issues'
+              issue_query: 'repo:lutydlitatova/python-data-1 is:open is:issue sort:created-asc'
+          - title: 'ZelenyMartin/uvod-do-linuxu'
+            widgets:
+            - type: 'table'
+              title: 'Issues'
+              issue_query: 'repo:ZelenyMartin/uvod-do-linuxu is:open is:issue sort:created-asc'
         token: ${{ github.token }}
 
     - name: Publish Documentation
