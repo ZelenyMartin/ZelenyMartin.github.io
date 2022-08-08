@@ -10,12 +10,12 @@ jobs:
 
     steps:
     - name: Check out repository
-      uses: actions/checkout@v2
-    - name: Check out GitHub Pages branch
-      uses: actions/checkout@v2
-      with:
-        ref: 'gh-pages'
-        path: 'out'
+      uses: actions/checkout@v3
+#    - name: Check out GitHub Pages branch
+#      uses: actions/checkout@v2
+#      with:
+#        ref: 'gh-pages'
+#        path: 'out'
 
     - name: 'Generate Dashboard'
       uses: ethomson/issue-dashboard@v1
@@ -24,7 +24,7 @@ jobs:
           title: 'Dashboard'
           output:
             format: html
-            filename: 'out/dashboard.html'
+            filename: 'dashboard.html'
           sections:
           - title: 'Pull Requests'
             widgets:
@@ -39,5 +39,4 @@ jobs:
         git config user.name 'Dashboard User'
         git config user.email 'nobody@nowhere'
         git commit -m 'Documentation update' --allow-empty
-        git push origin gh-pages
-      working-directory: out
+        git push
