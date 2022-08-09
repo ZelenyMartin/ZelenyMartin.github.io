@@ -25,7 +25,7 @@ jobs:
           - title: 'lutydlitatova/uvod-do-progr-1'
             widgets:
             - type: 'table'
-              headers: ['PR', 'Title']
+              header: ['PR', 'Title']
               issue_query: 'repo:lutydlitatova/uvod-do-progr-1 is:open is:pr'
             - type: 'table'
               issue_query: 'repo:lutydlitatova/uvod-do-progr-1 is:open is:issue'
