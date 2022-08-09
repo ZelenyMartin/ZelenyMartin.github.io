@@ -25,16 +25,17 @@ jobs:
           - title: 'lutydlitatova/uvod-do-progr-1'
             widgets:
             - type: 'table'
+              headers: ['PR', 'Title']
               issue_query: 'repo:lutydlitatova/uvod-do-progr-1 is:open is:pr'
             - type: 'table'
               issue_query: 'repo:lutydlitatova/uvod-do-progr-1 is:open is:issue'
               
-          - title: 'pesikj/progr2-python'
+          - title: 'lutydlitatova/uvod-do-progr-2'
             widgets:
             - type: 'table'
-              issue_query: 'repo:pesikj/progr2-python is:open is:pr'
+              issue_query: 'repo:lutydlitatova/uvod-do-progr-2 is:open is:pr'
             - type: 'table'
-              issue_query: 'repo:pesikj/progr2-python is:open is:issue'
+              issue_query: 'repo:lutydlitatova/uvod-do-progr-2 is:open is:issue'
               
           - title: 'podlomar/python-data'
             widgets:
