@@ -25,9 +25,6 @@ jobs:
           - title: 'lutydlitatova/uvod-do-progr-1'
             widgets:
             - type: 'table'
-              header:
-              - 'PR'
-              - 'Title'
               issue_query: 'repo:lutydlitatova/uvod-do-progr-1 is:open is:pr'
             - type: 'table'
               issue_query: 'repo:lutydlitatova/uvod-do-progr-1 is:open is:issue'
@@ -35,9 +32,6 @@ jobs:
           - title: 'pesikj/progr2-python'
             widgets:
             - type: 'table'
-              header:
-              - 'PR'
-              - 'Title'
               issue_query: 'repo:pesikj/progr2-python is:open is:pr'
             - type: 'table'
               issue_query: 'repo:pesikj/progr2-python is:open is:issue'
@@ -45,9 +39,6 @@ jobs:
           - title: 'podlomar/python-data'
             widgets:
             - type: 'table'
-              header:
-              - 'PR'
-              - 'Title'
               issue_query: 'repo:podlomar/python-data is:open is:pr'
             - type: 'table'
               issue_query: 'repo:podlomar/python-data is:open is:issue'
@@ -55,9 +46,6 @@ jobs:
           - title: 'lutydlitatova/python-data-1'
             widgets:
             - type: 'table'
-              header:
-              - 'PR'
-              - 'Title'
               issue_query: 'repo:lutydlitatova/python-data-1 is:open is:pr'
             - type: 'table'
               issue_query: 'repo:lutydlitatova/python-data-1 is:open is:issue'
@@ -65,9 +53,6 @@ jobs:
           - title: 'pesikj/python-pro-powerbi'
             widgets:
             - type: 'table'
-              header:
-              - 'PR'
-              - 'Title'
               issue_query: 'repo:pesikj/python-pro-powerbi is:open is:pr'
             - type: 'table'
               issue_query: 'repo:pesikj/python-pro-powerbi is:open is:issue'
@@ -75,9 +60,6 @@ jobs:
           - title: 'ZelenyMartin/uvod-do-linuxu'
             widgets:
             - type: 'table'
-              header:
-              - 'PR'
-              - 'Title'
               issue_query: 'repo:ZelenyMartin/uvod-do-linuxu is:open is:pr'
             - type: 'table'
               issue_query: 'repo:ZelenyMartin/uvod-do-linuxu is:open is:issue'
