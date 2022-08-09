@@ -25,73 +25,61 @@ jobs:
           - title: 'lutydlitatova/uvod-do-progr-1'
             widgets:
             - type: 'table'
-              title: 'Pull Requests'
-              headers:
+              header:
               - 'PR'
               - 'Title'
               issue_query: 'repo:lutydlitatova/uvod-do-progr-1 is:open is:pr'
             - type: 'table'
-              title: 'Issues'
               issue_query: 'repo:lutydlitatova/uvod-do-progr-1 is:open is:issue'
               
           - title: 'pesikj/progr2-python'
             widgets:
             - type: 'table'
-              title: 'Pull Requests'
-              headers:
+              header:
               - 'PR'
               - 'Title'
               issue_query: 'repo:pesikj/progr2-python is:open is:pr'
             - type: 'table'
-              title: 'Issues'
               issue_query: 'repo:pesikj/progr2-python is:open is:issue'
               
           - title: 'podlomar/python-data'
             widgets:
             - type: 'table'
-              title: 'Pull Requests'
-              headers:
+              header:
               - 'PR'
               - 'Title'
               issue_query: 'repo:podlomar/python-data is:open is:pr'
             - type: 'table'
-              title: 'Issues'
               issue_query: 'repo:podlomar/python-data is:open is:issue'
               
           - title: 'lutydlitatova/python-data-1'
             widgets:
             - type: 'table'
-              title: 'Pull Requests'
-              headers:
+              header:
               - 'PR'
               - 'Title'
               issue_query: 'repo:lutydlitatova/python-data-1 is:open is:pr'
             - type: 'table'
-              title: 'Issues'
               issue_query: 'repo:lutydlitatova/python-data-1 is:open is:issue'
               
           - title: 'pesikj/python-pro-powerbi'
             widgets:
             - type: 'table'
-              title: 'Pull Requests'
-              headers:
+              header:
               - 'PR'
               - 'Title'
               issue_query: 'repo:pesikj/python-pro-powerbi is:open is:pr'
             - type: 'table'
-              title: 'Issues'
               issue_query: 'repo:pesikj/python-pro-powerbi is:open is:issue'
               
           - title: 'ZelenyMartin/uvod-do-linuxu'
             widgets:
             - type: 'table'
-              title: 'Pull Requests'
-              headers:
+              header:
               - 'PR'
               - 'Title'
               issue_query: 'repo:ZelenyMartin/uvod-do-linuxu is:open is:pr'
             - type: 'table'
-              title: 'Issues'
               issue_query: 'repo:ZelenyMartin/uvod-do-linuxu is:open is:issue'
         token: ${{ github.token }}
 
